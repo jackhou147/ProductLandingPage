@@ -1,0 +1,1378 @@
+body {
+    overflow-x: hidden;
+}
+.sec1{
+    padding-top: 20vh;
+    width: 100vw;
+    height: 140vh;
+    background-color: #0E0E0E;
+    
+}
+
+.mainHeader {
+    width: 90vw;
+    margin: 6vw auto;
+    font-size: 3em;
+    color: white;
+    
+}
+
+.mainButton {
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 6vh;
+ }
+.mainButton button {
+    margin: 0 2%;
+    border-radius: 35px;
+    width: 20vw;
+    border-style: solid;
+    border-collapse: white;
+    transition-duration: 0.3s;
+}
+
+.exp:hover {
+    background-color: rgba(40,96,144,0);
+}
+
+.buy {
+    border-style: solid;
+    border-collapse: white;
+    border-width: 1px;
+    background-color: rgba(0,0,0,0);
+    color: white;
+}
+
+.buy:hover {
+    color: royalblue;
+}
+
+
+
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
+.sec1 {
+   
+    background: url(pictures/mainpage.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 70% ;
+    background-color: black;
+    margin-bottom: 0px;
+    position: relative;
+    float: left;
+    padding-bottom: 20px;
+    
+    
+}
+
+.sec2 {
+    height: 130vh;
+    width: 100vw;
+    background-color: #F0F0F0;
+}
+
+
+
+.navbar {
+    position: relative;
+    margin-bottom: 0px;
+    z-index: 9;
+}
+
+.mainArrow {
+    width: 40px;
+    height: 20px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: 10px;
+    margin: 0 45%;
+    background: url(pictures/arrowAfter.png);
+    background-size: 40px 20px;
+    transition-duration: 0.2s;
+    opacity: 0.4
+    
+
+}
+
+.arrAf {
+    width: 40px;
+    height: 20px;
+}
+
+.mainArrow:hover {
+    transform: translateY(10px);
+    opacity: 1;
+}
+
+ h1 {
+    width: 50%;
+    text-align: center;
+    margin: 20vh auto;
+    margin-bottom: 0;
+}
+
+.sec2P, .sec3 p {
+    
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 3%;
+    margin-bottom: 150px
+}
+
+.sec2Gal {
+    width: 80%;
+    margin: auto;
+    height: 30%;
+    padding-top: 20px;
+    
+
+}
+
+.sec2pic {
+    height:100% ;
+    
+    width: 100%;
+}
+
+.sec2 h1 {
+    margin-top: 100px;
+}
+
+
+.slide {
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    height: 35%;
+    justify-content: space-between;
+    position: relative;
+    top: 32.5%;
+    
+}
+
+.slide div {
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    background-color: #343434;
+    opacity: 0.05;
+    transition-duration: 0.2s;
+    border-radius: 10%
+}
+
+
+
+
+.slideL img{
+    width: 50px;
+    height: 50px;
+    transform: rotate(90deg);
+    display: block;
+    margin: 10px auto;
+    transition-duration: 0.5s;
+}
+
+.slideR img{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 10px auto;
+    transform: rotate(-90deg);
+}
+
+
+.twoPics {
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    bottom: 50%;
+    width: 330px;
+    margin: auto;
+    
+}
+
+.twoPics img{
+    height: 100%;
+    width: 100%;
+}
+
+.pic1{
+    position: relative;
+   
+    
+
+}
+
+.pic2 {
+    
+    position: relative;
+    
+    height: 100%;
+    width: 100%;
+}
+
+.sec3 {
+    
+    width: 100vw;
+    
+    
+    
+    
+}
+
+.sec3 h1{
+    margin-bottom: 25px;
+}
+
+
+
+.toggle {
+    height: 35px;
+    width: 70px;
+    margin:auto;
+    padding-top: 8px
+}
+
+.toggleBar {
+    height: 19px ;
+    width:  45px ;
+    margin:  auto;
+    border-radius: 80px;
+    border: 2.5px solid #3e4042;
+    padding-top: 2.79px;
+}
+
+.toggleBall {
+    height: 10px ;
+    width:  10px ;
+    border-radius: 50px;
+    position: relative;
+    left: 3px;
+    background-color: #3e4042;
+    transition: left 0.2s ease-out;
+
+}
+.ballR {
+    position: relative;
+    left: 28px;
+}
+
+.sec3Features {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.sec3Features img{
+    width: 50px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    top: -6px;
+    margin-right: 0;
+}
+
+.sec3Features section{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.sec3Features p{
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 50px ;
+    margin-left: 20px;
+    
+}
+
+.sec3 span{
+    font-size: 1.6em
+}
+
+.sec3 br{
+    line-height: 250%;
+}
+
+.sec3Img{
+    height: 200px;
+    width: 280px;
+    position: relative;
+    bottom: 0;
+}
+
+.film{
+    width: 100vw;
+    height: 75vh;
+    background: url("http://spliffmobile.com/android-wallpapers/images/black-design-mobile-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 90px;
+}
+
+.film h1{
+    width:80vw;
+}
+
+.playButton{
+    width: 80px;
+    height: 80px;
+    margin:  20px auto;
+    border: 10px solid white;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.triangle{
+    width: 0;
+    margin: inherit;
+    position: relative;
+    top: -4px;
+    background-color: white;
+    border-top: 1px solid black ;
+    border-left: 15px  solid black;
+    border-bottom: 25px solid white;
+    border-right: 15px solid black;
+    transform: rotate(90deg);
+    left: 3px;
+  }
+
+.playButton:hover{
+    cursor: pointer;
+}
+
+.hiddenFilm{
+    width: 100vw;
+    height: 100vh;
+    background-color: #313131;
+    z-index: 10;
+    padding: 80px;
+    display: none;
+    position: fixed;
+    top: 0;
+    opacity: 0.94;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    
+    
+    
+    
+}
+
+.hiddenFilm iframe{
+    display: block;
+    margin: 0 auto;
+    opacity: 1;
+    width: 80vw;
+    height: 25vh;
+    
+    
+    
+}
+
+html.filmed, body.filmed {
+    overflow-y: hidden;
+}
+
+
+.closeButton{
+    text-align: right;
+    width:  80vw;
+    height: 4vh;
+    margin: auto;
+    
+    
+}
+
+.closeButton span {
+    color: white;
+    font-weight: normal;
+    opacity: 1;
+}
+
+
+.closeButton span:hover{
+    cursor: pointer;
+}
+
+.sec5{
+    background-color: #F0F0F0;
+    width: 100%;
+}
+
+.sec5fea, .sec5Text{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    
+    
+}
+
+.sec5Text section {
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    margin: auto;
+    
+}
+
+.sec5Text img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.sec5Intro {
+    width: 50%;
+    margin: 20px auto 60px;
+    text-align: center;
+}
+
+.sec5Gal .slide{
+    position: relative;
+    top: 190px;
+    width: 90vw;
+    margin: auto;
+}
+
+.sec5 .twoPics {
+    width: 80vw;
+    height: 60vw;
+    margin: auto;
+}
+
+.sec6 {
+    width: 100%;
+}
+
+.sec6ImgDiv{
+    width: 270px;
+    height: 370px;
+    margin: auto;
+    
+    
+}
+
+.sec6 img{
+    width: 270px;
+    height: 370px;
+    
+    
+    
+}
+
+.sec6 h1{
+    text-align: left;
+    margin: 20% auto 40px;
+}
+
+.sec6 p{
+    width: 50%;
+    margin: 0 auto 40px;
+    text-align: left;
+}
+
+.sec7{
+    background-color: #F0F0F0;
+    padding-bottom: 80px;
+    width: 100%;
+}
+
+.sec7Intro {
+    width: 50%;
+    margin: 20px auto 30px;
+    text-align: center;
+    
+}
+
+.sec7Flex {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0;
+}
+
+.sec7Flex img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 0 auto;
+    margin-right: 10px;
+}
+
+.sec7Flex p{
+    width: 50%;
+    margin: 0 auto 20px 0;
+}
+
+.testimonial {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    background: linear-gradient(360deg, #0A5A96, #156AAA);
+    padding-bottom: 100px;
+    
+    
+}
+
+.testimonial p{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    padding-bottom: 25px;
+    
+}
+
+.testimonial img {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50px;
+}
+
+.sec8 {
+    width: 100%;
+    height: 120vh; 
+    background-color: #FBFCFD;
+    
+
+}
+
+.dropDownButton{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: black;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+    
+}
+
+.arrowDown {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background-color: white;
+    position: relative;
+    left: 15px;
+    top: 10px;
+    transform: rotate(-45deg);
+}
+.arrowDown:before{
+    content: " ";
+    background-color: white;
+    width: 4px;
+    height: 13px;
+    position: absolute;
+    top: -12px;
+    
+}
+
+.arrowDown:after {
+    content: " ";
+    position: absolute;
+    background-color: white;
+    width: 13px;
+    height: 4px;
+    left: 3px;
+}
+
+/*dropdown menu*/
+.dropDownMenu {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(11,91,151, 0.1);
+  width: 162px;
+  height:160px;
+  padding-top: 0px;
+  margin-top: 15px;
+  margin-left: 10px;
+  display: none;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  
+  
+    
+}
+
+.menuLine {
+  width: 3.1px;
+  height: 140px;
+  border-radius: 15px;
+  background-color: black;
+  position: relative;
+  left: 15px;
+  top: 5px;
+    
+}
+
+ .menu ul {
+  list-style-type: none;
+     margin-left: 0px;
+     padding-left: 3px;
+     padding-top: 9px;
+  
+}
+  .li1, .li2, .li3 {
+  font-size: 19px;
+  margin-bottom: 25px;
+  position: relative;
+  top: -140px;
+  left: 170px;
+  cursor: pointer;
+  transition: transform;
+  /*visibility: hidden;*/
+  transition-timing-function: ease-in;
+  
+}
+
+.li1{
+    left: 450px;
+    transition-duration: 0.2s;
+    transition-delay: 0.1s;
+}
+
+.li2{
+    
+    transition-duration: 0.2s;
+    /*transition-timing-function: ease-in;*/
+    left: 450px;
+    transition-delay: 0.2s;
+}
+
+.li3 {
+    left: 450px;
+    transition-duration: 0.2s;
+    transition-delay: 0.4s;
+}
+
+.slideIn1{
+    visibility: visible;
+    transform: translateX(-430px);
+}
+
+.slideIn2{
+    visibility: visible;
+    transform: translateX(-430px);
+}
+
+.slideIn3{
+    visibility: visible;
+    transform: translateX(-430px);
+}
+
+
+
+
+/*/dropdown menu*/
+.sec8Gal{
+    width: 100%;
+    position: relative;
+    
+    
+}
+
+.sec8Gal .slide{
+    width: 80%;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 30%;
+}
+
+.sec8 .twoPics{
+    width: 250px;
+    margin: auto;
+    height: 210px;
+}
+
+.sec8 .twoPics img{
+    border-radius: 25px;
+}
+
+.sec8 .horiBar{
+    height: 50px; 
+    width: 310px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.sec8 .horiBar img{
+    width: 60px;
+    height: 100%;
+    cursor: pointer;
+    margin-right: 2px;
+    
+}
+
+.sec8 .horiBar img:hover {
+     border: 0.1px solid black;
+}
+
+.sec8 .horiBar .current {
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.37);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.37);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.37);
+}
+
+.hiddenHoribar {
+    visibility: hidden;
+}
+
+.sec8PopUp {
+    width: 400px;
+    height: 400px ;
+    z-index: 5 ;
+    background-color: white;
+    margin: auto;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    left: calc((100vw - 400px) / 2);
+    top: calc((100vh - 400px) / 2);
+    
+    
+}
+
+
+.popUpGal img{
+    width: 60%;
+    height: 55%;
+    margin: auto;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    
+}
+
+.sec8PopUp .horiBar{
+    position: absolute;
+    bottom: 5%;
+    width: 310px;
+    left: calc((100% - 310px) / 2);
+}
+
+
+
+
+.sec8PopUp.hide, .fullScreenOverlay.hide{
+    display: none;
+}
+
+.fullScreenOverlay{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    z-index: 4;
+    opacity: 0.6;
+    
+}
+
+.sec8PopUp .closeButton{
+    position: absolute;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color: white;
+    -webkit-box-shadow: -2px 1px 9px 1px rgba(0,0,0,0.35);
+-moz-box-shadow: -2px 1px 9px 1px rgba(0,0,0,0.35);
+box-shadow: -2px 1px 9px 1px rgba(0,0,0,0.35);
+    cursor: pointer;
+    
+}
+
+.closex{
+    text-align: center;
+    color: black;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    font-size: 25px;
+    left: calc((30px - 17px) / 2);
+    top: -5px
+  
+    
+    
+}
+
+/*******************sec8 titleBar**********************/
+.titleBar {
+    width: 400px ;
+    margin: auto;
+    height: 40px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.titleBar div{
+    display: inline-block;
+    height: 100%;
+    
+    
+}
+
+.titleBar div:first-child {
+    width: 150px;
+}
+.titleBar div:nth-child(2) {
+    width: 50px;
+}
+.titleBar div:nth-child(3){
+    width: 150px;
+}
+
+
+.firDiv{
+    border-left: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    cursor: default;
+}
+
+.secDiv {
+    border-bottom: 1px solid #DDDDDD;
+    cursor: pointer;
+    
+    
+}
+
+.thiDiv {
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.firDiv.none {
+    border-top: 0;
+    border-bottom: 1px solid #DDDDDD;
+    border-left: 0;
+    border-right: 0;
+    cursor: pointer;
+}
+
+.secDiv.click {
+    border-left: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 0;
+    cursor: default;
+}
+
+
+.titleBar p{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 6px
+    
+}
+
+
+
+/*******************\sec8 titleBar**********************/
+
+.sec8 .article p{
+    width: 60%;
+    margin: auto;
+    height: auto;
+    margin-top: 20px;
+}
+
+/******************spinner*****************************/
+.spinnerParent {
+    width: 60%;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 15px;
+    
+}
+.spinner {
+    width: 40px;
+    height: 35px;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid black;
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.spinner input{
+    width: 60px;
+    height: 30px;
+    border-top: 0;
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+    position: absolute;
+    height: 60px;
+    top: -15px;
+    padding-left: 18px;
+    left: -10px
+}
+
+.incre {
+    position: absolute;
+    right: 0;
+    height: 60%;
+    width: 10px;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    background-color: #D2D2D2;
+    display: none;
+}
+
+.incre .show {
+    display: block;
+}
+
+.incre div{
+    width: 100%;
+    height: 50%;
+    
+}
+
+
+
+.incTri, .decTri {
+    width: 10px;
+    height: 10px;
+    border-top: 4px solid transparent;
+    border-left: 4px solid transparent;
+    border-bottom: 4px solid #505050;
+    border-right: 4px solid transparent;
+    position: absolute;
+    top: -2.5px;
+    
+}
+
+.decTri {
+    position: absolute;
+    top: 12px;
+    transform: rotate(180deg);
+    
+}
+
+
+/*******************\spinner***************************/
+
+.toCart {
+    width: 110px;
+    height: 42px;
+    background-color: rgb(4, 80, 137);
+    border-radius: 25px;
+    padding-top: 0;
+    position: absolute;
+    left: 50px;
+    cursor: pointer;
+    transition: all, 0.2s, ease;
+    
+    
+}
+
+.toCart p{
+    text-align: center;
+    width: 90%;
+    height: 50%;
+    position: absolute;
+    color: white;
+    left: 5%;
+    top: 25%;
+}
+
+.toCart:hover {
+    background-color: #2A6A9B;
+}
+
+/********************sec9*****************/
+.sec9 {
+    width: 100%;
+    background-color: #292E31;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sec9 h1{
+    width: 390px;
+}
+
+hr {
+    width: 330px;
+    display: block;
+    border: 0;
+    border-top: 2.5px solid #3E4345;
+}
+
+.aboutUs p{
+    width: 320px;
+    margin: auto;
+}
+
+.freeTrial {
+    display: flex;
+    flex-direction: column;
+}
+
+.freeTrial input{
+    width: 330px;
+    margin: auto;
+    background-color: #292E31;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 6px;
+    height: 45px;
+    padding-left: 20px;
+}
+
+.freeTrial input:focus{
+    outline: none;
+    
+}
+
+.freeTrial input:last-child{
+    padding-left: 0;
+    border-radius: 50px;
+    background-color: #045089;
+    border: 0;
+    transition: background-color 0.2s ease;
+}
+.freeTrial input:last-child:hover{
+    background-color: #074B80;
+}
+
+.freeTrial form{
+    display: flex;
+    flex-direction: column;
+}
+
+.connect img{
+    width: 80px;
+    height: 80px;
+}
+
+.connect img:first-child, .connect img:last-child{
+    width: 45px;
+    height: 45px;
+}
+
+.sec9 {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/************************footer**********************/
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #23272A;
+    color: #CDCDCD;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.footerSp {
+    display: none;
+}
+
+.footerSp.hover {
+    display: inline-block;
+}
+
+
+
+/***********************\footer**********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************\sec9*****************/
+
+
+
+/*********************navbar********************************/
+nav{
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    height: 75px;
+    background-color: #252B2D;
+    display: block;
+    z-index: 20;
+    overflow: hidden;
+    color: #DBDCDC;
+    padding-top: 24px;
+    color: #DBDCDC;
+    
+    
+    
+    
+}
+
+.navSlide{
+    position: relative;
+    top: 55px;
+    background-color: #252B2D;
+    width: 100%;
+    height: 370px;
+    color: white;
+    z-index: 100;
+}
+
+.navName{
+    position: relative;
+    margin: auto;
+    left: -70px;
+    
+}
+
+.navLine{
+    width: 210px;
+    height: 0.5px;
+    background-color: #E7E7E7;
+    margin:auto;
+    margin-top: 20px;
+    margin-bottom: 28px;
+    
+}
+
+
+.navSlide ul{
+    padding-left: 0;
+    list-style-type: none;
+    width: 230px;
+    margin:auto;
+    position: relative;
+    left: 10px;
+}
+
+.navSlide li{
+    margin-bottom: 15px;
+    margin-left: 10px;
+    
+}
+
+.navSlide{
+    display: flex;
+    flex-direction: column;
+}
+
+.navName{
+    display: block;
+    width: 90px;
+    font-size: 29px;
+    padding: 0;
+    
+}
+
+.navButt{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    right: 60px;
+    top: 35px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.navButt div{
+    background-color: #DBDCDC;
+    width: 100%;
+    height: 1px;
+    margin-bottom: 5px;
+}
+/**************************\navbar**************************/
+
+
+/*media queries*/
+@media only screen and (max-width: 768px){
+    .smallScreenHidden {
+        display: none;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 480px){
+    .navLine{
+        width: 400px;
+    }
+    
+    .navName{
+        left: -170px
+    }
+    
+    .navSlide ul{
+        left: -85px;
+    }
+    
+    .twoPics, .sec5 .twoPics {
+        width: 320px;
+        height: 220px;
+        margin: auto;
+    }
+    
+}
+
+
+
+
+
+@media only screen and (min-width: 768px){
+    .navSlide {
+        display: none;
+    }
+    
+    nav{
+        padding-left: 0px;
+        background-color: rgba(14,14,14,0);
+        transition: background-color 1s ease;
+    }
+    
+    .navName{
+        position: absolute;
+        left: 3vw;
+    }
+    
+    .navButt{
+        display: none;
+    }
+    
+    .smallScreenHidden {
+        display: block;
+        position: absolute;
+        right: 5%;
+        list-style-type: none;
+    }
+    
+    .smallScreenHidden li{
+        float: left;
+        margin-right: 10px;
+    }
+    
+    nav.scr {
+        background-color: #252B2D;
+        
+    }
+    
+    .sec9 {
+        flex-direction: row;
+        padding-left: 60px;
+        
+    }
+    
+    .aboutUs, .connect, .freeTrial {
+        width: 30%;
+        height: 30%;
+        font-size: 15px;
+    }
+    
+    .freeTrial input{
+        width: 220px;
+    }
+    
+    .sec9 h1{
+        width: 220px;
+        font-size: 1.7em;
+    }
+    
+    .sec9 p{
+        width: 220px;
+    }
+    
+    .sec9 hr{
+        width: 230px;
+    }
+    
+    
+}
+
+@media only screen and (min-width: 1024px){
+    .smallScreenHidden {
+        right: 15%;
+    }
+    
+    .smallScreenHidden li{
+        margin-right: 25px;
+    }
+}
+
+
+
+
+
+
+/*/media queries*/
+
+body {
+    width: 100vw;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
